@@ -1,8 +1,28 @@
-# .gitignore
+# Bytecode và cache Python
 *.pyc
 __pycache__/
+
+# Thư mục dữ liệu và mô hình
 data/*
 models/*.h5
 data/processed/*.npy
-.DS_Store
+results/
+
+# Môi trường ảo
 venv/
+.venv/
+
+# File hệ thống
+.DS_Store
+
+# Cấu hình IDE (PyCharm)
+.idea/
+
+# File tạm thời và log
+*.log
+*.ipynb_checkpoints/
+
+# File lớn hoặc nhạy cảm (tùy chỉnh)
+*.zip
+*.rar
+*.tar.gz
