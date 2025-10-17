@@ -1,0 +1,8 @@
+# .gitignore
+*.pyc
+__pycache__/
+data/*
+models/*.h5
+data/processed/*.npy
+.DS_Store
+venv/
